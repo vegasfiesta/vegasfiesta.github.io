@@ -1,0 +1,226 @@
+{
+  "settings": {
+    "currentPage": "offrejoueurs.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
+        "isRtl": true
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 11,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "offrejoueurs.html": {
+      "settings": {
+        "main": true,
+        "title": "Le muguet",
+        "meta_descr": "casino en ligne \nonline win games",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 VegasFiesta."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "POUR LA FETE DU MUGUET&nbsp;",
+                "showText": true,
+                "text": "&nbsp;VegasFiesta vous propose une offre de toute fraicheur&nbsp;",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DECOUVREZ LA ICI</a> "
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "!ET UN CADEAU &nbsp;BIEN SUR",
+                "showText": true,
+                "text": "&nbsp;Notre equipe vpus attenden tchat",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONNECTEZ -VOUS</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "!VEGASFIESTA, VOTRE CASINO",
+                "showText": true,
+                "text": "Tous vos jeux favoris, une equipe de support a l'ecoute de vous attrentes",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOUEZ ICI</a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#cccccc",
+            "showBullets": false
+          },
+          "_anchor": "slider3-9",
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "text-align": "left",
+              "font-size": "48px"
+            },
+            "P": {
+              "text-align": "left",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#7b7a7a"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#7b7a7a"
+            },
+            ".link, .dropdown-item": {
+              "color": "#7b7a7a",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-family": "'Source Sans Pro', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#7b7a7a",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-a",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.75",
+            "fontName": {
+              "name": "Source Sans Pro",
+              "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "css": "'Source Sans Pro', sans-serif"
+            },
+            "fontColor": "#7b7a7a",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/new-logo-320x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://goo.gl/pVzjsC",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">\u001b</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://goo.gl/pVzjsC\" target=\"_blank\" aria-expanded=\"false\">SUPPORT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://goo.gl/pVzjsC\" target=\"_blank\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:support@vegasfiesta.com\">email</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://goo.gl/pVzjsC\" target=\"_blank\">DOWNLOAD</a></li>"
+        }
+      ]
+    }
+  }
+}
